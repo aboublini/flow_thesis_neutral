@@ -4,16 +4,74 @@ label {
     color: #000;
 }
 
+.left-image {
+    width: 55%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-image {
+    width: 75% !important;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    filter: blur(2px);
+}
+
+.blur {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 3rem;
+    width: 55%;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.blur h1 {
+    font-size: 3.1rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.blur p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+}
+
+
+.content {
+    width: 45%;
+    float: right;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
     padding: 4rem;
-    margin: auto;
-    width: 400px;
-    height: 580px;
-    background: rgba(255, 255, 255, .7);
-    align-items: center;
+    width: 60%;
+    /*margin: auto;*/
+    /*height: 100%;*/
+    /*align-items: center;*/
     border-radius: 25px;
+    /*background-color: #8F867E;*/
+}
+
+.hi {
+    font-size: 2.5rem;
+    font-weight: bold ;
+    margin: 2rem 0;
 }
 
 .login-form label {
@@ -22,8 +80,8 @@ label {
     font-size: 1rem;
 }
 
-p {
-    margin-top: .7rem;
+.forgot {
+    margin-top: 2rem;
     font-size: 0.9rem;
 }
 
@@ -32,16 +90,26 @@ u {
 }
 
 .login-form input, textarea {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     padding: 0.6rem 1rem;
     font-size: 1rem;
     font-family: 'Raleway', 'Nirmala UI', serif;
-    background-color: #fff;
-    border: none;
+    background-color: #f0f0f0;
+    border: 2px solid #716AFA;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #000;
-    min-width: 200px;
+    /*width: 80%;*/
+}
+
+.login-form input, textarea:focus {
+    outline: none !important;
+    background-color: pink !important;
+}
+
+.forgot {
+    margin-top: 1.5rem;
+    text-align: center;
 }
 
 .login-logo {

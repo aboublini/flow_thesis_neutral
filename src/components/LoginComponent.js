@@ -5,6 +5,8 @@ import Logo from '../visual-material/logo.png';
 import { useNavigate } from "react-router-dom";
 import {useEffect, useState} from 'react';
 import Swal from "sweetalert2";
+import loginImage from "../visual-material/LoginBackround.jpg";
+// import React from "@types/react";
 
 const LoginComponent = () => {
 
@@ -95,18 +97,23 @@ const LoginComponent = () => {
 
     return (
         <div className="hero">
-            <video autoPlay loop muted id="video">
-                <source src={colourVideo} type="video/mp4"/>
-            </video>
+            <div className="left-image">
+                <img src={loginImage} id="login-image" alt="life-background"/>
+                <div className="blur">
+                    <h1>Make your everyday life easier with flow.</h1>
+                    <p>Login and start organizing.</p>
+                </div>
+            </div>
+
             <div className="content">
                 <form onSubmit={handleLogin} className="login-form">
-                    <img className="login-logo" src={Logo} alt=""/>
-                    <label>Your hhhUsername</label>
+                    <h1 className="hi">Hi again!</h1>
+                    <label>Username</label>
                     <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>
                     <label>Password</label>
                     <input type="password" name="password" value={password} onChange={e => setPassword(e.target.value)} required/>
                     <button className="btn">Login</button>
-                    <p>Forgot your password? <br/><u onClick={ResetPassword}>Reset password</u></p>
+                    <p className="forgot">Forgot your password? <br/><u onClick={ResetPassword}>Reset password</u></p>
                 </form>
             </div>
         </div>
