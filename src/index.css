@@ -41,7 +41,8 @@ code {
     sans-serif;
     padding: 12px 32px;
     font-size: 1.1em;
-    background: #716AFA;
+    font-weight: bolder;
+    background: #6069FA;
     color: #fff;
     border: 1px;
     cursor: pointer;
@@ -50,6 +51,7 @@ code {
 
 
 .btn:hover {
-    background: rgba(255, 255, 255, .5);
+    transition: .2s;
+    background: rgba(95, 105, 250, .5);
 }
 

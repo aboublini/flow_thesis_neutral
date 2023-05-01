@@ -71,7 +71,7 @@ label {
 .hi {
     font-size: 2.5rem;
     font-weight: bold ;
-    margin: 2rem 0;
+    margin-bottom: 2rem !important;
 }
 
 .login-form label {
@@ -95,7 +95,7 @@ u {
     font-size: 1rem;
     font-family: 'Raleway', 'Nirmala UI', serif;
     background-color: #f0f0f0;
-    border: 2px solid #716AFA;
+    border: 2px solid #6069FA;
     outline: none;
     border-radius: 10px;
     color: #000;
@@ -104,7 +104,6 @@ u {
 
 .login-form input, textarea:focus {
     outline: none !important;
-    background-color: pink !important;
 }
 
 .forgot {
@@ -113,8 +112,8 @@ u {
 }
 
 .login-logo {
-    max-width: 230px;
-    margin-bottom: 2rem;
+    max-width: 50px;
+    margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1100px) and (max-height: 1000px) {

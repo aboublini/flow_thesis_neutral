@@ -107,6 +107,7 @@ const LoginComponent = () => {
 
             <div className="content">
                 <form onSubmit={handleLogin} className="login-form">
+                    <img src={Logo} className="login-logo"/>
                     <h1 className="hi">Hi again!</h1>
                     <label>Username</label>
                     <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>
