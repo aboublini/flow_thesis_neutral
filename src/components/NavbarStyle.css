@@ -7,7 +7,7 @@
     align-items: center;
     padding: 1rem;
     z-index: 10;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
 }
 
 .left-navbar {
@@ -64,7 +64,7 @@
 }
 
 .header-bg {
-    background: rgba(255, 255, 255, .7);
+    background: #fff;
     transition: .5s;
 }
 

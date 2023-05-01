@@ -10,20 +10,20 @@ const Navbar = () => {
     const [Click, setClick] = useState(false);
     const handleClick = () => setClick(!Click);
 
-    // // Change navbar color when scrolling
-    // const [color, setColor] = useState(false);
-    // const changeColor = () => {
-    //     if (window.scrollY >= 90) {
-    //         setColor(true);
-    //     } else {
-    //         setColor(false);
-    //     }
-    // }
-    //
-    // window.addEventListener('scroll', changeColor);
+    // Change navbar color when scrolling
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeColor);
 
     return (
-        <div className="header">
+        <div className={color ? 'header header-bg' : 'header'}>
             <div className="left-navbar">
                 <Link to="/home"><img src={Logo} className="nav-logo" alt=""/></Link>
                 <ul className={Click ? "nav-menu active" : "nav-menu"}>

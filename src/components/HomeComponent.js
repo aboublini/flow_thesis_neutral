@@ -8,16 +8,21 @@ import homeImage from "../visual-material/HomeBackround.jpg";
 const HomeComponent = () => {
     return (
         <div className="container">
-            {/*<video autoPlay loop muted id="video">*/}
-            {/*    <source src={homeVideo} type="video/mp4"/>*/}
-            {/*</video>*/}
+            <video autoPlay loop muted id="video">
+                <source src={homeVideo} type="video/mp4"/>
+            </video>
 
-            <img src={homeImage} id="home-image" alt="life-background"/>
-            <div className="img-front"></div>
+            {/*<img src={homeImage} id="home-image" alt="life-background"/>*/}
+            {/*<div className="img-front"></div>*/}
             <div className="content">
                 <div className="welcome">
-                    <img src={Logo} className="home-img" alt=""/>
-                    <p>Your productivity app.</p>
+                    <div className="welcome-logo">
+                        <img src={Logo} className="home-img" alt=""/>
+                    </div>
+
+                    <div className="welcome-msg">
+                        <h1>Focus on being productive instead of busy with flow.</h1>
+                    </div>
                 </div>
             </div>
         </div>

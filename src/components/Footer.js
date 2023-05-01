@@ -18,16 +18,15 @@ const Footer = () => {
                             student at the University of Piraeus and flow
                             is a part of my diploma thesis with the title
                             "Gender-related UI/UX". </p>
-                        <br/><br/>
                         <div className="social">
                             <Link target="_blank" to={"//goo.gl/maps/B4wBubyEPW2Cc6vQ9"}>
-                                <HiLocationMarker size={30} style={{color: '#000', marginRight: '1rem'}}/>
+                                <HiLocationMarker size={30} style={{color: '#6069FA', marginRight: '1rem'}}/>
                             </Link>
                             <a href={"mailto:aboublini@gmail.com"}>
-                                <SiGmail size={30} style={{color: '#000', marginRight: '1rem'}}/>
+                                <SiGmail size={30} style={{color: '#6069FA', marginRight: '1rem'}}/>
                             </a>
                             <Link target="_blank" to={"//github.com/aboublini"}>
-                                <FaGithub size={30} style={{color: '#000', marginRight: '1rem'}}/>
+                                <FaGithub size={30} style={{color: '#6069FA', marginRight: '1rem'}}/>
                             </Link>
                         </div>
                     </div>
