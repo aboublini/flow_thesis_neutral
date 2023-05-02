@@ -1,10 +1,11 @@
 #video {
+    top: 50px;
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 95%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(.8) blur(3px) grayscale(70%);
+    filter: brightness(0.9) blur(4px) grayscale(30%);
 }
 
 .hero {

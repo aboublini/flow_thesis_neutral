@@ -1,5 +1,6 @@
 import React from 'react';
 import './QuotesComponentStyle.css'
+import Logo from "../visual-material/logo.png";
 
 const QuotesComponent = () => {
     // Quotes that will be appearing
@@ -50,11 +51,15 @@ const QuotesComponent = () => {
 
     return (
         <div className="quotes">
-            <p className="quote-title">Quote we love:</p>
-            <br/>
-            <p className="quote-text">“{quoteText}”</p>
-            <br/>
-            <p className="quote-who">- {quoteWriter}</p>
+            <div className="logo-quotes">
+                <img src={Logo} className="lg" alt=""/>
+            </div>
+
+            <div className="text">
+                <p className="quote-text">“{quoteText}”</p>
+                <p className="quote-who">- {quoteWriter}</p>
+            </div>
+
         </div>
     );
 };

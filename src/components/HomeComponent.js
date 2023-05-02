@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomeComponentStyle.css'
 import homeVideo from '../visual-material/HomeBackround.mp4';
-import Logo from "../visual-material/logo.png";
+import Logo from "../visual-material/logo-white.png";
 import lifeImage from "../visual-material/LifeBackround.jpg";
 import homeImage from "../visual-material/HomeBackround.jpg";
 

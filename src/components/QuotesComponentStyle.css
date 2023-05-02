@@ -1,31 +1,56 @@
 .quotes {
     width: 100%;
-    padding: 6rem 0;
-    background: rgba(255, 255, 255, .6);
+    padding: 10rem 0;
+    background: #fff;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
 }
 
 
-.quotes .quote-title {
-    font-size: 2rem;
+.lg {
+    width: 90px;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
+
+.text {
+    width: 40%;
+}
+
 
 .quotes .quote-text {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     font-style: italic;
-    font-size: 3.3rem;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: dimgray;
 }
 
 .quotes .quote-who {
     font-style: italic;
     font-size: 1.5rem;
+    text-align: left;
+    font-weight: 800;
+    color: dimgray;
 }
 
-@media screen and (max-width: 640px) {
-    .quotes-container {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 1240px) {
+    /*.quotes-container {*/
+    /*    grid-template-columns: 1fr;*/
+    /*}*/
+
+    .lg {
+        transition: .2s;
+        max-width: 5rem;
+    }
+
+    .quotes .quote-text {
+        transition: .2s;
+        font-size: 2.5rem;
     }
 
 }
