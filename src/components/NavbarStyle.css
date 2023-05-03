@@ -32,6 +32,10 @@
     border: 2px solid #6069FA;
 }
 
+.logout-button:hover {
+    cursor: pointer;
+}
+
 .logout-button a {
     color: #6069FA;
     font-weight: bold;
@@ -138,13 +142,21 @@
     }
 
     .nav-menu li:hover {
+        transition: .2s;
         border-bottom: none;
-        background: rgba(192, 190, 179, .6);
+        background: rgba(95, 105, 250, .3);
         cursor: pointer;
     }
 
     .nav-menu a {
         font-size: 1.5rem;
+    }
+
+    .nav-menu a:hover {
+        transition: .3s;
+        font-size: 1.6rem;
+        color: dimgray;
+        /*font-weight: bold;*/
     }
 
     .dropdown {

@@ -31,7 +31,7 @@
     font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
-    color: #000;
+    color: dimgray;
 }
 
 .this-month {
@@ -68,7 +68,7 @@
     height: 100%;
     padding-left: 0.5rem;
     padding-right: 2rem;
-
+    color: dimgray;
 }
 
 .alert-inside {
@@ -90,6 +90,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin-right: 1.5rem;
+    color: dimgray;
 }
 
 /*.alert:hover {*/
@@ -101,6 +102,7 @@
     font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
+    color: dimgray;
 }
 
 .row-mt3 {
@@ -135,8 +137,13 @@
 
 .delete-icon {
     cursor: pointer;
+    color: dimgray;
 }
 
+.delete-icon:hover {
+    transition: .2s;
+    color: #6069FA;
+}
 
 
 
@@ -174,11 +181,13 @@
 
 .list-cont span {
     font-weight: bolder;
+    color: dimgray;
 }
 
 .exp-name {
     width: 25%;
     text-align: left;
+    color: dimgray;
 }
 
 .row label {
@@ -187,6 +196,7 @@
     text-align: left;
     width: 100%;
     justify-content: left;
+    color: dimgray;
 }
 
 .row .lab {

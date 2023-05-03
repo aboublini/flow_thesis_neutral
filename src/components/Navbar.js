@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
 
             <div className="hamburger" onClick={handleClick}>
-                {Click ? (<FaTimes size={20} style={{color: '#000'}}/>) : (<FaBars size={20} style={{color: '#6069FA'}}/>)}
+                {Click ? (<FaTimes size={20} style={{color: '#6069FA'}}/>) : (<FaBars size={20} style={{color: '#6069FA'}}/>)}
             </div>
         </div>
     );
