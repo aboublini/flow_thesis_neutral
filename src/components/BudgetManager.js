@@ -145,21 +145,21 @@ const BudgetManager = () => {
         datasets: [{
             label: "€",
             data: [total, remain],
-            backgroundColor: ["#8F867E", "rgba(143, 134, 126, .3)"],
-            borderColor: ["#8F867E", "white"],
+            backgroundColor: ["#6069FA", "rgba(95, 105, 250, .3)"],
+            borderColor: ["#6069FA", "rgba(95, 105, 250, .1)"],
         }]
     }
 
-    const lineChartData = {
-        labels: expenses.map(obj => obj.name),
-        datasets: [{
-            label: 'Expenses Flow',
-            data: expenses.map(obj => obj.cost),
-            fill: false,
-            borderColor: '#8F867E',
-            tension: 0.1
-        }]
-    };
+    // const lineChartData = {
+    //     labels: expenses.map(obj => obj.name),
+    //     datasets: [{
+    //         label: 'Expenses Flow',
+    //         data: expenses.map(obj => obj.cost),
+    //         fill: false,
+    //         borderColor: '#8F867E',
+    //         tension: 0.1
+    //     }]
+    // };
 
     const options = {
         responsive: true,
@@ -210,32 +210,7 @@ const BudgetManager = () => {
 
             </div>
 
-            {/*<h1 className="this-month-title">Expenses</h1>*/}
             <div className="third">
-
-                {/*<div className="left-chart">*/}
-
-                {/*    <div className="row-mt3">*/}
-                {/*        <div className="add-exp">*/}
-                {/*            <h3 className="mt-3">Add Expense</h3>*/}
-                {/*            <div className="col-sm">*/}
-                {/*                <AddExpense*/}
-                {/*                    handleAddExpense={addExpense}*/}
-                {/*                />*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
-                {/*<div className="right-chart">*/}
-                {/*    <div className="chart-cont">*/}
-                {/*        <Doughnut*/}
-                {/*            data={doghnutData}*/}
-                {/*            options={options}*/}
-                {/*        ></Doughnut>*/}
-                {/*    </div>*/}
-
-                {/*</div>*/}
                 <div className="general-add1">
                     <h1 className="this-month-title">Add Expense</h1>
                     <div className="this-month-add">

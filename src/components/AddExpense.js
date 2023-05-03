@@ -25,9 +25,8 @@ const AddExpense = ({ handleAddExpense }) => {
     return (
         <form>
             <div className="row">
-                <br/>
-                <div className="col-sm">
-                    <label for="name">Name: </label>
+                <div className="col-sm lab">
+                    <label for="name">Expense Name: </label>
                     <input
                            type="text"
                            className="form-control"
@@ -37,9 +36,9 @@ const AddExpense = ({ handleAddExpense }) => {
                            onChange={handleNameChange}
                     ></input>
                 </div>
-                <br/>
-                <div className="col-sm">
-                    <label for="cost">  Cost:  </label>
+
+                <div className="col-sm lab">
+                    <label for="cost">Cost:  </label>
                     <input
                            type="text"
                            className="form-control"
@@ -49,11 +48,9 @@ const AddExpense = ({ handleAddExpense }) => {
                            onChange={handleCostChange}
                     ></input>
                 </div>
-                <br/>
+
                 <div className="col-sm">
-                    <button type="submit" className="save" onClick={handleSaveClick}>
-                        +
-                    </button>
+                    <button type="submit" className="save-btn" onClick={handleSaveClick}>Add</button>
                 </div>
             </div>
         </form>
