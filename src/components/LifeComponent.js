@@ -1,6 +1,7 @@
 import React from 'react';
 import './LifeComponentStyle.css'
 import lifeImage from '../visual-material/LifeBackround.jpg';
+import Logo from "../visual-material/logo-white.png";
 
 const LifeComponent = () => {
     return (
@@ -10,8 +11,13 @@ const LifeComponent = () => {
 
             <div className="life-content">
                 <div className="life-title">
-                    <h1>Flow's budget manager.</h1>
-                    <p>Simple, easy and responsible.</p>
+                    <div className="life-logo">
+                        <img src={Logo} className="life-img" alt=""/>
+                    </div>
+
+                    <div className="life-msg">
+                        <h1>Organize your needs easy. Live easier.</h1>
+                    </div>
                 </div>
             </div>
         </div>

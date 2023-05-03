@@ -1,48 +1,81 @@
 #life-image {
+    /*top: 50px;*/
+    bottom: 140px;
     width: 100% !important;
-    height: 100%;
+    height: 95%;
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    filter: brightness(85%);
+    filter: brightness(0.9) blur(4px) grayscale(20%);
 }
 
 .life-container {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     position: relative;
     object-fit: contain;
 }
 
 .life-container .life-content {
-    background: rgba(255, 255, 255, .6);
+    background: rgba(255, 255, 255, .3);
     text-align: center;
     position: absolute;
     width: 100%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .life-title {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 2rem;
+    /*margin-right: 20rem;*/
 }
 
-.life-container .life-content h1 {
-    font-size: 4rem;
-    color: #000;
+.life-logo {
+    float: left;
 }
 
-.life-container p {
-    font-size: 1.6rem;
-    font-weight: 200;
-    color: #000;
+.life-msg {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.life-msg h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 800;
 }
 
 .life-img {
-    max-width: 450px;
-    margin-bottom: 1rem;
+    max-width: 7rem;
+    margin-right: 2rem;
+    /*float: left;*/
 }
+
+
+/*.life-container .life-content h1 {*/
+/*    font-size: 4rem;*/
+/*    color: #000;*/
+/*}*/
+
+/*.life-container p {*/
+/*    font-size: 1.6rem;*/
+/*    font-weight: 200;*/
+/*    color: #000;*/
+/*}*/
+
+/*.life-img {*/
+/*    max-width: 450px;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
 
 @media screen and (max-width: 640px) {
     .life-content h1 {
