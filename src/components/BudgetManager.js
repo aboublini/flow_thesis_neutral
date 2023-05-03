@@ -179,27 +179,26 @@ const BudgetManager = () => {
         <div className="outer-dv">
             <br/><br/><br/><br/>
 
-            <div className="budget-cont">
-
-                <div className="row-mt3">
-                    <div className="this-month">
-                        <h3 className="mt-3">This month</h3>
-                        <div className="col-m">
-                            <Budget budget={budget}/>
-                        </div>
-                        <div className="col-m">
-                            <Remaining remain={remain}/>
-                        </div>
-                        <div className="col-m">
-                            <ExpenseTotal total={total}/>
-                        </div>
+            <div className="general">
+                <h1 className="this-month-title">This month</h1>
+                <div className="this-month">
+                    <div className="general-row">
+                        <Budget budget={budget}/>
+                    </div>
+                    <div className="general-row">
+                        <Remaining remain={remain}/>
+                    </div>
+                    <div className="general-row">
+                        <ExpenseTotal total={total}/>
                     </div>
                 </div>
 
+            </div>
 
-                <div className="row-mt3">
+            <div className="general">
+                <h1 className="this-month-title">Expenses</h1>
+                <div className="this-month">
                     <div className="exp-list">
-                        <h3 className="mt-3">Expenses</h3>
                         <div className="col-sm">
                             <ExpenseList
                                 expenses={expenses}
@@ -209,34 +208,55 @@ const BudgetManager = () => {
                     </div>
                 </div>
 
+            </div>
 
-                <div className="row-mt3">
-                    <div className="add-exp">
-                        <h3 className="mt-3">Add Expense</h3>
-                        <div className="col-sm">
+            {/*<h1 className="this-month-title">Expenses</h1>*/}
+            <div className="third">
+
+                {/*<div className="left-chart">*/}
+
+                {/*    <div className="row-mt3">*/}
+                {/*        <div className="add-exp">*/}
+                {/*            <h3 className="mt-3">Add Expense</h3>*/}
+                {/*            <div className="col-sm">*/}
+                {/*                <AddExpense*/}
+                {/*                    handleAddExpense={addExpense}*/}
+                {/*                />*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+
+                {/*<div className="right-chart">*/}
+                {/*    <div className="chart-cont">*/}
+                {/*        <Doughnut*/}
+                {/*            data={doghnutData}*/}
+                {/*            options={options}*/}
+                {/*        ></Doughnut>*/}
+                {/*    </div>*/}
+
+                {/*</div>*/}
+                <div className="general-add">
+                    <h1 className="this-month-title">Add Expense</h1>
+                    <div className="this-month-add">
+                        <div className="chart-cont">
                             <AddExpense
                                 handleAddExpense={addExpense}
                             />
                         </div>
+
                     </div>
+
                 </div>
-            </div>
-            <br/>
-            <div className="chart-cont">
-                <div className="left-chart">
-                    <div className="chart-cont">
-                        <Doughnut
-                            data={doghnutData}
-                            options={options}
-                        ></Doughnut>
-                    </div>
-                </div>
-                <div className="right-chart">
-                    <div className="chart-cont">
-                            <Line
-                                data={lineChartData}
+                <div className="general-add">
+                    <h1 className="this-month-title">Quick View</h1>
+                    <div className="this-month-add">
+                        <div className="chart-cont">
+                            <Doughnut
+                                data={doghnutData}
                                 options={options}
-                            ></Line>
+                            ></Doughnut>
+                        </div>
                     </div>
 
                 </div>

@@ -3,16 +3,98 @@
 }
 
 .budget-cont {
-    max-width: 1000px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
     /*padding-right: 15px;*/
     /*padding-left: 15px;*/
-
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*250px*/
 }
+
+.general {
+    max-width: 900px;
+    /*background-color: #fff;*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.this-month-title {
+    /*margin: 10px 0;*/
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: left;
+    color: #000;
+}
+
+.this-month {
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    /*margin-top: 1.5rem;*/
+
+}
+
+
+.general-row {
+    max-width: 100%;
+}
+
+.alert {
+    /*background-color: #f0f0f0;*/
+    width: 95%;
+    padding: 1rem;
+}
+
+.alert h3 {
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 95%;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+
+}
+
+.alert-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.budget-img {
+    width: 150px;
+}
+
+.alert span {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+/*.alert:hover {*/
+/*    background-color: rgba(255, 255, 255, .2);*/
+/*}*/
 
 .mt-3 {
     margin: 10px 0;
@@ -22,8 +104,6 @@
 }
 
 .row-mt3 {
-    background-color: rgba(255, 255, 255, .7);
-    border-radius: 10px;
     padding: 1rem;
     min-height: 270px;
     display: flex;
@@ -52,39 +132,14 @@
     cursor: pointer;
 }
 
-.this-month {
-    margin-top: auto;
-    margin-bottom: auto;
 
-    text-align: center;
-    padding-bottom: 5px;
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
-    position: relative;
 
-}
-
-.alert {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 7% auto;
-    padding: 5px;
-    width: 80%;
-    height: 65%;
-
-    background-color: white;
-    border-radius: 20px;
-}
-
-.alert:hover {
-    background-color: rgba(255, 255, 255, .2);
-}
 
 .exp-list {
+    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 10px;
 }
 
 .list-group {
@@ -99,8 +154,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 4px auto;
-    padding: 5px;
-    width: 80%;
+    padding: 10px 8px;
+    width: 95%;
 }
 
 .list-cont {
@@ -109,10 +164,20 @@
     cursor: pointer;
     margin-left: 5px;
     white-space: break-spaces;
+    width: 25%;
+}
+
+.list-cont span {
+    font-weight: bolder;
+}
+
+.exp-name {
+    width: 25%;
+    text-align: left;
 }
 
 .form-control {
-    max-width: 300px;
+    /*max-width: 300px;*/
     font-size: 1.2rem;
     font-family: 'Indie Flower', serif !important;
     background-color: #fff;
@@ -143,6 +208,18 @@
 
 .chart-cont {
     max-width: 1000px;
+    margin: auto;
+    /*padding-right: 5px;*/
+    /*padding-left: 5px;*/
+
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.third {
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
     /*padding-right: 5px;*/
@@ -154,9 +231,16 @@
 
 }
 
+.general-add {
+    margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
+
+}
+
 .left-chart, .right-chart {
-    background-color: rgba(255, 255, 255, .7);
-    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -165,8 +249,34 @@
     align-items: center;
 }
 
-.chart-cont{
-    margin: auto;
+.this-month-add {
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    /*margin-top: 1.5rem;*/
+
 }
 
+
+@media screen and (max-width: 945px) {
+    .this-month{
+        flex-direction: column;
+    }
+
+    .alert {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .general {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
 
