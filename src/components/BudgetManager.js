@@ -236,7 +236,7 @@ const BudgetManager = () => {
                 {/*    </div>*/}
 
                 {/*</div>*/}
-                <div className="general-add">
+                <div className="general-add1">
                     <h1 className="this-month-title">Add Expense</h1>
                     <div className="this-month-add">
                         <div className="chart-cont">
@@ -248,7 +248,7 @@ const BudgetManager = () => {
                     </div>
 
                 </div>
-                <div className="general-add">
+                <div className="general-add2">
                     <h1 className="this-month-title">Quick View</h1>
                     <div className="this-month-add">
                         <div className="chart-cont">
