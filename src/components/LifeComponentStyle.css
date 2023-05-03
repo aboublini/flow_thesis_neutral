@@ -77,18 +77,16 @@
 /*    margin-bottom: 1rem;*/
 /*}*/
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1240px) {
     .life-content h1 {
-        font-size: 3rem;
+        transition: .2s;
+        font-size: 2.5rem;
     }
 
-    .life-content p {
-        font-size: 1.4rem;
-        margin-bottom: 1.6rem;
+    .life-img {
+        transition: .2s;
+        max-width: 5rem;
     }
-}
-
-@media screen and (max-width: 640px) {
 
 }
 

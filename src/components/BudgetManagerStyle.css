@@ -279,21 +279,25 @@
 
 @media screen and (max-width: 945px) {
     .this-month{
+        transition: .2s;
         flex-direction: column;
     }
 
     .alert {
+        transition: .2s;
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
     }
 
     .general {
+        transition: .2s;
         margin-left: 10rem;
         margin-right: 10rem;
     }
 
     .third {
+        transition: .2s;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -303,6 +307,7 @@
     }
 
     .general-add1, .general-add2 {
+        transition: .2s;
         width: 100%;
     }
 }
