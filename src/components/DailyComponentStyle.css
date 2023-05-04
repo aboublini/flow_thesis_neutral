@@ -84,13 +84,26 @@
 /*    color: #000;*/
 /*}*/
 
-@media screen and (max-width: 640px) {
+/*@media screen and (max-width: 640px) {*/
+/*    .daily-content h1 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*    .daily-content p {*/
+/*        font-size: 1.4rem;*/
+/*        margin-bottom: 1.6rem;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 1240px) {
     .daily-content h1 {
-        font-size: 3rem;
+        transition: .2s;
+        font-size: 2.5rem;
     }
 
-    .daily-content p {
-        font-size: 1.4rem;
-        margin-bottom: 1.6rem;
+    .daily-img {
+        transition: .2s;
+        max-width: 5rem;
     }
+
 }
