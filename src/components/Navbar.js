@@ -39,6 +39,9 @@ const Navbar = () => {
                     <li>
                         <Link to="/notes">Notes</Link>
                     </li>
+                    <li>
+                        <Link to="/about">About Flow</Link>
+                    </li>
                     {/*<li className="dropdown">*/}
                     {/*    <button className="dropbtn">More</button>*/}
                     {/*    <div className="dropdown-content">*/}
@@ -60,7 +63,7 @@ const Navbar = () => {
             </div>
 
             <div className="right-navbar">
-                <li className="help-button"><Link to="/about">HELP</Link></li>
+                <li className="help-button"><Link to="/help">HELP</Link></li>
                 <li className="logout-button"><Link to="/">LOGOUT</Link></li>
             </div>
 
