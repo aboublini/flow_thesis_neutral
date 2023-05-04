@@ -5,6 +5,7 @@ import TodoItem from "./TodoItem";
 import CalendarComponent from "./CalendarComponent";
 import {nanoid} from "nanoid";
 import Swal from "sweetalert2";
+import ProgressBar from "./ProgressBar";
 
 function TodoComponent() {
 
@@ -104,6 +105,11 @@ function TodoComponent() {
     // Important to dos are the to-dos that the user adds
     let sortedTodos = todos.sort((a, b) => b.important - a.important)
 
+    // Number of to-do's and completed to dos for the progress bar
+    const numOfItems = todos.length;
+    const completedTodos = todos.filter(todo => todo.completed);
+    const completedTodoCount = completedTodos.length;
+    const c = completedTodoCount*100/numOfItems;
 
     return (
         <div className="out">
@@ -111,19 +117,28 @@ function TodoComponent() {
             <div className="outer-container">
                 <div className="left-content">
                     <h1 className="this-month-title">To-do list</h1>
+
                     <div className="to-do-cont">
+
                         <div className="todo">
 
                             <TodoForm
                                 todos={todos}
                                 addTodo={addTodo}
+                                c={c}
                             />
+                            <ProgressBar bgcolor="#6069FA" progress={c}  height={5} />
+                            <div className="sorted">
+                                {sortedTodos.map((todo) => {
+                                    return (
+                                        <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
+                                    )
+                                })}
+                            </div>
 
-                            {sortedTodos.map((todo) => {
-                                return (
-                                    <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
-                                )
-                            })}
+
+
+
                         </div>
                     </div>
                 </div>

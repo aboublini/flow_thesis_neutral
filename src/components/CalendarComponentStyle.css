@@ -45,7 +45,8 @@
 /* Month title styling */
 .css-dplwbx-MuiPickersCalendarHeader-label {
     font-size: 1.5rem !important;
-    color: dimgray !important;
+    color: #6069FA !important;
+
     margin-bottom: 2px !important;
 }
 
@@ -86,4 +87,9 @@
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
     background-color: #6069FA !important;
     color: #fff !important;
+}
+
+.css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button,
+.css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
+    color: #6069FA !important;
 }

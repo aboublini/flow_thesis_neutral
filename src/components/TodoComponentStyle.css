@@ -30,8 +30,8 @@
     display: flex;
 
     /*padding: 3rem 3rem;*/
-    min-height: 440px;
-    min-width: 450px;
+    height: 440px;
+    width: 450px;
 }
 .todo {
     display: flex;
@@ -40,6 +40,8 @@
     text-align: center;
     align-items: center;
     margin: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
     width: 70%;
     /*background-color: pink ;*/
 }
@@ -56,12 +58,11 @@
 
 
     padding: 2rem 2rem;
-    min-height: 440px;
-    min-width: 450px;
+    height: 440px;
+    width: 450px;
 }
 
 h1 {
-    /*margin: 32px 0;*/
     font-size: 2.5rem;
     font-weight: normal;
 }
@@ -71,18 +72,6 @@ h1 {
 }
 
 .todo-input {
-    /*max-width: 300px;*/
-    /*margin-bottom: 2rem;*/
-    /*margin-right: 1rem;*/
-    /*padding: 0.4rem 1rem;*/
-    /*font-size: 1.3rem;*/
-    /*font-family: 'Indie Flower', serif !important;*/
-    /*background-color: #fff;*/
-    /*border: none;*/
-    /*outline: none;*/
-    /*border-radius: 25px;*/
-    /*color: #000;*/
-
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     padding: 0.6rem 1rem;
@@ -99,16 +88,6 @@ h1 {
 }
 
 .todo-button {
-    /*font-family: 'Raleway', 'Nirmala UI', 'Roboto', 'Oxygen',*/
-    /*'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
-    /*sans-serif;*/
-    /*padding: 3px 12px;*/
-    /*font-size: 1.5em;*/
-    /*background: #8F867E;*/
-    /*color: #fff;*/
-    /*border: 1px;*/
-    /*cursor: pointer;*/
-    /*border-radius: 50%;*/
     font-family: 'Manrope', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -120,8 +99,9 @@ h1 {
     border: 1px;
     cursor: pointer;
     border-radius: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
+
 
 .todo-row{
     font-family: 'Manrope', serif !important;
@@ -138,6 +118,10 @@ h1 {
 .todo-button:hover {
     transition: .2s;
     background: rgba(95, 105, 250, .5);
+}
+
+.todo-button:focus {
+    outline: none;
 }
 
 .todo-row {
@@ -177,6 +161,12 @@ h1 {
 
 input.check-box:checked {
     /*background-color: pink !important;*/
+}
+
+.sorted {
+    width: 100%;
+    overflow-y: auto;
+    height: 180px;
 }
 
 

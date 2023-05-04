@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ProgressBar from "./ProgressBar";
 
 
 export default function TodoForm(props) {
@@ -13,6 +14,7 @@ export default function TodoForm(props) {
 
     return (
         <form onSubmit={handleSubmit} className="todo-form">
+
             <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
