@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutComponentStyle.css'
 import aboutVideo from '../visual-material/AboutBackround.mp4';
+import Logo from "../visual-material/logo-white.png";
 
 const AboutComponent = () => {
     return (
@@ -10,8 +11,13 @@ const AboutComponent = () => {
             </video>
             <div className="about-content">
                 <div className="about-title">
-                    <h1>About flow.</h1>
-                    <p>The idea behind productivity.</p>
+                    <div className="about-logo">
+                        <img src={Logo} className="about-img" alt=""/>
+                    </div>
+
+                    <div className="about-msg">
+                        <h1>Flow. The idea behind productivity.</h1>
+                    </div>
                 </div>
             </div>
         </div>

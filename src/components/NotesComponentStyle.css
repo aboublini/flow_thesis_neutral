@@ -4,7 +4,7 @@
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    filter: brightness(0.8) blur(4px) grayscale(30%);
+    filter: brightness(0.8) blur(4px) grayscale(10%);
     /*bottom: 220px;*/
     top: 30px;
 }
