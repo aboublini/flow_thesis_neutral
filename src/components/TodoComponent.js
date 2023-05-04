@@ -94,6 +94,7 @@ function TodoComponent() {
         let updatedTodos = todos.map((todo) => {
             if(todo.id === id) {
                 todo.completed = !todo.completed
+
             }
             return todo
         })
@@ -106,24 +107,32 @@ function TodoComponent() {
 
     return (
         <div className="out">
-            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/>
             <div className="outer-container">
                 <div className="left-content">
-                    <div className="todo">
-                        <h1>To-do List</h1>
-                        <TodoForm
-                            todos={todos}
-                            addTodo={addTodo}
-                        />
+                    <h1 className="this-month-title">To-do list</h1>
+                    <div className="to-do-cont">
+                        <div className="todo">
 
-                        {sortedTodos.map((todo) => {
-                            return (
-                                <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
-                            )
-                        })}
+                            <TodoForm
+                                todos={todos}
+                                addTodo={addTodo}
+                            />
+
+                            {sortedTodos.map((todo) => {
+                                return (
+                                    <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
-                <div className="right-content"><CalendarComponent></CalendarComponent></div>
+                <div className="right-content">
+                    <h1 className="this-month-title">Calendar</h1>
+                    <div className="cal">
+                        <CalendarComponent></CalendarComponent>
+                    </div>
+                </div>
             </div>
             <br/><br/>
         </div>

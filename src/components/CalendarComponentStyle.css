@@ -38,18 +38,21 @@
 
 /* Date title font size */
 .css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title {
-    font-size: 2.5rem !important;
+    /*font-size: 1.5rem !important;*/
+    display: none !important;
 }
 
 /* Month title styling */
 .css-dplwbx-MuiPickersCalendarHeader-label {
     font-size: 1.5rem !important;
+    color: dimgray !important;
     margin-bottom: 2px !important;
 }
 
 /* Initials of week days M, T, ... F, S */
 .css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel{
     font-size: 1rem !important;
+
 }
 
 .css-ghi3gg-MuiDayPicker-weekContainer {
@@ -60,6 +63,7 @@
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
     margin: 3px 3px !important;
     font-size: 1rem !important;
+    color: dimgray !important;
 }
 
 /* Calendar background color */
@@ -69,16 +73,17 @@
 
 /* Selected day styling */
 .css-195y93z-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
-    background-color: #8F867E !important;
+    background-color: #6069FA !important;
     color: white !important;
 }
 
 /* Border color of selected day circle */
 .css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
-    border-color: #8F867E !important;
+    border-color: #6069FA !important;
 }
 
 /* Other days circles color when they are being clicked */
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
-    background-color: #8F867E !important;
+    background-color: #6069FA !important;
+    color: #fff !important;
 }

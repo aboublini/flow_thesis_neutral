@@ -19,7 +19,7 @@ export default function TodoForm(props) {
                 className="todo-input"
                 placeholder="Write something here"
             />
-            <button type="submit" className="todo-button">+</button>
+            <button type="submit" className="todo-button">Add</button>
         </form>
     );
 }
