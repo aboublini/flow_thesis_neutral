@@ -1,6 +1,7 @@
 import React from 'react';
 import './NotesComponentStyle.css'
 import notesImage from '../visual-material/NotesBackround.jpg';
+import Logo from "../visual-material/logo-white.png";
 
 
 const NotesComponent = () => {
@@ -12,8 +13,13 @@ const NotesComponent = () => {
 
             <div className="notes-content">
                 <div className="notes-title">
-                    <h1>All your notes in one place.</h1>
-                    <p>Take notes anytime, anywhere.</p>
+                    <div className="notes-logo">
+                        <img src={Logo} className="life-img" alt=""/>
+                    </div>
+
+                    <div className="notes-msg">
+                        <h1>All your notes now organized in one place.</h1>
+                    </div>
                 </div>
             </div>
         </div>
