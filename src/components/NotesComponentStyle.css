@@ -5,8 +5,8 @@
     object-fit: cover;
     position: fixed;
     filter: brightness(0.8) blur(4px) grayscale(10%);
-    /*bottom: 220px;*/
-    top: 30px;
+    bottom: 120px;
+    /*top: 30px;*/
 }
 
 .notes-container {
