@@ -79,27 +79,28 @@
 .reset-title, .remove-title {
     font-size: 1.1rem;
     font-weight: lighter;
+    color: dimgray;
 }
 
 .reset-input {
     padding: 0 1rem;
     font-size: 1.1rem;
-    font-family: 'Raleway', 'Nirmala UI', serif;
-    background-color: #fff;
-    border: none;
     outline: none;
-    border-radius: 25px;
     color: #000;
     max-width: 330px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Manrope', 'Nirmala UI', serif;
+    background-color: #f0f0f0;
+    border: 2px solid #6069FA;
+    border-radius: 10px;
 }
 
 .reset-container,
 .remove-container {
-    background: rgba(255, 255, 255, .8);
-    border-radius: 20px;
+    background: #fff;
+    border-radius: 15px;
     max-width: 400px;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -107,30 +108,35 @@
 
 .reset-container .reset-confirm,
 .remove-container .remove-confirm{
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    background-color: #6069FA;
+    border-radius: 10px;
     width: 90px;
 }
 
 .reset-container .reset-confirm:hover,
 .remove-container .remove-confirm:hover {
-    background-color: rgba(143, 134, 126, .5);
+    transition: 0.3s;
+    background: rgba(95, 105, 250, .5);
 }
 
 .reset-container .reset-cancel, .remove-container .remove-cancel{
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    background-color: #6069FA;
+    border-radius: 10px;
     width: 90px;
 }
 
 .reset-container .reset-cancel:hover,
 .remove-container .remove-cancel:hover {
-    background-color: rgba(143, 134, 126, .5);
+    transition: 0.3s;
+    background: rgba(95, 105, 250, .5);
 }
 
+
+
+
 .reset-container-ok {
-    background: rgba(255, 255, 255, .8);
-    border-radius: 20px;
+    background: #fff;
+    border-radius: 15px;
     max-width: 400px;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -142,8 +148,15 @@
 }
 
 .reset-container-ok .reset-ok {
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    background-color: #6069FA;
+    border-radius: 10px;
     width: 90px;
 }
+
+.reset-container-ok .reset-ok:hover {
+    transition: 0.3s;
+    background: rgba(95, 105, 250, .5);
+}
+
+
 
