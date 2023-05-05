@@ -61,22 +61,6 @@
 }
 
 
-/*.life-container .life-content h1 {*/
-/*    font-size: 4rem;*/
-/*    color: #000;*/
-/*}*/
-
-/*.life-container p {*/
-/*    font-size: 1.6rem;*/
-/*    font-weight: 200;*/
-/*    color: #000;*/
-/*}*/
-
-/*.life-img {*/
-/*    max-width: 450px;*/
-/*    margin-bottom: 1rem;*/
-/*}*/
-
 @media screen and (max-width: 1240px) {
     .life-content h1 {
         transition: .2s;

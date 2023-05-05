@@ -3,11 +3,16 @@ import './AboutInfoComponentStyle.css'
 import {Link} from "react-router-dom";
 import unipi from '../visual-material/unipi-logo.png';
 import tools from '../visual-material/tools-image.png';
+import Logo from "../visual-material/logo.png";
 
 const AboutInfoComponent = () => {
     return (
         <div className="about">
-            <div className="left">
+            <div className="left-about">
+                <div className="about-logo">
+                    <img src={Logo} className="question-logo" alt=""/>
+                </div>
+
                 <h1>What is flow?</h1>
                 <p>I am currently studying Computer Science at the department of
                     Informatics of University of Piraeus.
@@ -17,14 +22,11 @@ const AboutInfoComponent = () => {
                     cryptographic algorithms, cloud design patterns and Information Systems.
                 </p>
             </div>
-            <div className="right">
-                <div className="img-container">
-                    <div className='image-stack top'>
-                        <img src={tools} className="img-logo" alt=""/>
-                    </div>
+
+            <div className="right-about">
+                <div className="about-logo">
+                    <img src={Logo} className="question-logo" alt=""/>
                 </div>
-            </div>
-            <div className="left">
                 <h1>Bachelor Thesis</h1>
                 <p>I am currently studying Computer Science at the department of
                     Informatics of University of Piraeus.
@@ -33,13 +35,6 @@ const AboutInfoComponent = () => {
                     My academic interests include web and desktop frontend technologies,
                     cryptographic algorithms, cloud design patterns and Information Systems.
                 </p>
-            </div>
-            <div className="right">
-                <div className="img-container">
-                    <div className='image-stack top'>
-                        <Link target="_blank" to={"//www.cs.unipi.gr/index.php?lang=el"}> <img src={unipi} className="img-logo" alt=""/> </Link>
-                    </div>
-                </div>
             </div>
         </div>
     );

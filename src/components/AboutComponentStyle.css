@@ -58,13 +58,15 @@
     /*float: left;*/
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1240px) {
     .about-content h1 {
-        font-size: 3rem;
+        transition: .2s;
+        font-size: 2.5rem;
     }
 
-    .about-content p {
-        font-size: 1.4rem;
-        margin-bottom: 1.6rem;
+    .about-img {
+        transition: .2s;
+        max-width: 5rem;
     }
+
 }

@@ -65,6 +65,7 @@
 
 .contnt.show {
     font-size: 1rem;
+    text-align: justify;
     margin-top: 15px;
     height: auto;
     max-height: 9999px;

@@ -59,6 +59,7 @@
 .help-button a {
     color: dimgrey;
     font-size: 0.9rem;
+    transition: .3s;
 }
 
 .help-button a:hover {
