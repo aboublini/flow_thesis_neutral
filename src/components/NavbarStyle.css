@@ -23,32 +23,26 @@
 }
 
 .right-navbar li {
-    padding: 0.2rem 1.3rem;
+    padding: 0.2rem 0.9rem;
     list-style-type: none;
     border-radius: 4px;
 }
 
 .logout-button {
     border: 2px solid #6069FA;
-}
-
-.logout-button:hover {
-    cursor: pointer;
-}
-
-.logout-button a {
+    padding: 0.2rem 1.2rem;
+    background-color: #fff;
+    border-radius: 4px;
     color: #6069FA;
     font-weight: bold;
     font-size: 0.8rem;
 }
 
+
 .logout-button:hover {
+    cursor: pointer;
     transition: .2s;
     background-color: #6069FA;
-}
-
-.logout-button a:hover{
-    transition: .2s;
     color: #fff;
 }
 
@@ -59,7 +53,6 @@
 .help-button a {
     color: dimgrey;
     font-size: 0.9rem;
-    transition: .3s;
 }
 
 .help-button a:hover {

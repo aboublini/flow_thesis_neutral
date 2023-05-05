@@ -79,7 +79,8 @@
     padding: 12px 32px;
     font-size: 1.1em;
     font-weight: bolder;
-    background: rgba(255, 255, 255, .4);
+
+    background: rgba(95, 105, 250, .5);
     color: #fff;
     border: 1px;
     cursor: pointer;
@@ -88,7 +89,7 @@
 
 .btn-help:hover {
     transition: .2s;
-    background: rgba(95, 105, 250, .5);
+    background: rgba(255, 255, 255, .3);
 }
 
 @media screen and (max-width: 1240px) {

@@ -42,14 +42,7 @@ const Navbar = () => {
                     <li>
                         <Link to="/about">About Flow</Link>
                     </li>
-                    {/*<li className="dropdown">*/}
-                    {/*    <button className="dropbtn">More</button>*/}
-                    {/*    <div className="dropdown-content">*/}
-                    {/*        <Link to="/help">FAQs</Link>*/}
-                    {/*        <Link to="/about">About Flow</Link>*/}
-                    {/*        <Link to="/">Logout</Link>*/}
-                    {/*    </div>*/}
-                    {/*</li>*/}
+
                     <li className="burger">
                         <Link to="/help">FAQs</Link>
                     </li>
@@ -64,7 +57,8 @@ const Navbar = () => {
 
             <div className="right-navbar">
                 <li className="help-button"><Link to="/help">HELP</Link></li>
-                <li className="logout-button"><Link to="/">LOGOUT</Link></li>
+                {/*<button className="logout-button"><li ><Link to="/">LOGOUT</Link></li></button>*/}
+                <Link to="/"><button className="logout-button">LOGOUT</button></Link>
             </div>
 
             <div className="hamburger" onClick={handleClick}>

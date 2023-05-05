@@ -90,7 +90,18 @@ const BudgetManager = () => {
                     },
                     title: "Expense name or cost missing!"
                 });
-        } else {
+        }
+        else if (isNaN(price)) {
+            Swal.fire(
+                {customClass:{
+                        popup: 'reset-container-ok',
+                        title: 'reset-title-ok',
+                        confirmButton: 'reset-ok'
+                    },
+                    title: "Price must be a number!"
+                });
+        }
+        else {
             const newExpenses = [...expenses, newExpense];
             setExpenses(newExpenses);
         }
@@ -150,16 +161,6 @@ const BudgetManager = () => {
         }]
     }
 
-    // const lineChartData = {
-    //     labels: expenses.map(obj => obj.name),
-    //     datasets: [{
-    //         label: 'Expenses Flow',
-    //         data: expenses.map(obj => obj.cost),
-    //         fill: false,
-    //         borderColor: '#8F867E',
-    //         tension: 0.1
-    //     }]
-    // };
 
     const options = {
         responsive: true,
