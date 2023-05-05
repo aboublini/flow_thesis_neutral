@@ -93,6 +93,7 @@
 }
 
 .nav-menu a {
+    transition: .3s;
     font-size: 1rem;
     font-weight: 200;
     color: dimgrey;
@@ -150,6 +151,7 @@
 
     .nav-menu a {
         font-size: 1.5rem;
+
     }
 
     .nav-menu a:hover {
