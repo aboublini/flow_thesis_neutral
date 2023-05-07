@@ -35,6 +35,7 @@
 }
 
 .about h1 {
+    transition: .2s;
     color: dimgray;
     font-weight: bolder;
 }
@@ -46,4 +47,11 @@
         transition: 0.2s;
     }
 
+}
+
+@media screen and (max-width: 1240px) {
+    .about h1 {
+        transition: .2s;
+        font-size: 2rem;
+    }
 }

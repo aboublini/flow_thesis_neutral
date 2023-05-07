@@ -5,6 +5,7 @@ label {
 }
 
 .left-image {
+    transition: .2s;
     width: 55%;
     float: left;
     height: 100%;
@@ -47,6 +48,7 @@ label {
 
 
 .content {
+    transition: .2s;
     width: 45%;
     float: right;
     background-color: #fff;
@@ -123,11 +125,17 @@ u {
         width: 100% !important;
     }
     .content {
+        transition: .2s;
         width: 100%;
         height: 90%;
     }
 
+    .hi {
+        font-size: 2.5rem !important;
+    }
+
     .left-image {
+        transition: .2s;
         width: 100%;
         height: 90%;
     }

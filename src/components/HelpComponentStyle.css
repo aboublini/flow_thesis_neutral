@@ -79,7 +79,7 @@
     padding: 12px 32px;
     font-size: 1.1em;
     font-weight: bolder;
-
+    transition: .2s;
     background: rgba(95, 105, 250, .5);
     color: #fff;
     border: 1px;

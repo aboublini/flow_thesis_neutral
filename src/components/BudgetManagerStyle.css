@@ -14,6 +14,7 @@
 }
 
 .general {
+    transition: .2s;
     max-width: 900px;
     /*background-color: #fff;*/
     margin-right: auto;
@@ -35,6 +36,7 @@
 }
 
 .this-month {
+    transition: .2s;
     border: 1px solid #f0f0f0;
     border-radius: 20px;
     width: 100%;
@@ -55,6 +57,7 @@
     /*background-color: #f0f0f0;*/
     width: 95%;
     padding: 1rem;
+    transition: .2s;
 }
 
 .alert h3 {
@@ -127,6 +130,7 @@
     border: 1px;
     cursor: pointer;
     border-radius: 10px;
+    transition: .2s;
 }
 
 
@@ -138,6 +142,7 @@
 .delete-icon {
     cursor: pointer;
     color: dimgray;
+    transition: .2s;
 }
 
 .delete-icon:hover {
@@ -252,6 +257,7 @@
 }
 
 .third {
+    transition: .2s;
     max-width: 900px;
     margin-right: auto;
     margin-left: auto;
@@ -265,6 +271,7 @@
     text-align: center;
     width: 50%;
     margin-right: 0.5rem;
+    transition: .2s;
 }
 
 .general-add2 {
@@ -273,6 +280,7 @@
     text-align: center;
     width: 50%;
     margin-left: 0.5rem;
+    transition: .2s;
 }
 
 .this-month-add {

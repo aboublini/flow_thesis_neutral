@@ -48,6 +48,7 @@
     font-size: 4rem;
     color: #fff;
     font-weight: 800;
+    transition: .2s;
 }
 
 .container p {
@@ -59,6 +60,7 @@
 .home-img {
     max-width: 7rem;
     margin-right: 2rem;
+    transition: .2s;
     /*float: left;*/
 }
 

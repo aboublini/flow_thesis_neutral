@@ -10,6 +10,7 @@
 
 
 .lg {
+    transition: .2s;
     width: 90px;
     margin-right: 1rem;
     margin-top: 1rem;
@@ -21,6 +22,7 @@
 
 
 .quotes .quote-text {
+    transition: .2s;
     width: 100%;
     font-style: italic;
     text-align: left;

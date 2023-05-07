@@ -47,6 +47,7 @@
 }
 
 .about-msg h1 {
+    transition: .2s;
     font-size: 3.5rem;
     color: #fff;
     font-weight: 800;
@@ -56,6 +57,7 @@
     max-width: 7rem;
     margin-right: 2rem;
     /*float: left;*/
+    transition: .2s;
 }
 
 @media screen and (max-width: 1240px) {
@@ -70,3 +72,4 @@
     }
 
 }
+

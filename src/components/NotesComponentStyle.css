@@ -53,9 +53,11 @@
     font-size: 3.5rem;
     color: #fff;
     font-weight: 800;
+    transition: .2s;
 }
 
 .notes-img {
+    transition: .2s;
     max-width: 7rem;
     margin-right: 2rem;
     /*float: left;*/

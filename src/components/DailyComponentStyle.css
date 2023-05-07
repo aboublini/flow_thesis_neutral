@@ -49,12 +49,14 @@
 }
 
 .daily-msg h1 {
+    transition: .2s;
     font-size: 3.5rem;
     color: #fff;
     font-weight: 800;
 }
 
 .daily-img {
+    transition: .2s;
     max-width: 7rem;
     margin-right: 2rem;
     /*float: left;*/
