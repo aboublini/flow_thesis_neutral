@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Wix+Madefor+Display&display=swap');
 
 .out {
     background: #fff;
@@ -47,15 +48,49 @@
     border: none;
     resize: none;
     background-color: rgba(255, 255, 255, .8) ;
-    font-family: 'Manrope', serif !important;
+    /*font-family: 'Manrope', serif !important;*/
     margin-bottom: 0.2rem;
     padding: 0.4rem 0.8rem;
     font-size: 1rem;
+    height: 230px;
 }
 
 .saved-txt {
-    font-family: 'Manrope', serif !important;
+    /*font-family: 'Manrope', serif !important;*/
     font-size: 1rem;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', serif !important;
+    font-size: 1.1rem;
+}
+
+.font-wix {
+    font-family: "Wix Madefor Display", serif !important;
+    font-size: 1.1rem;
+}
+
+.settings-notes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 0.6rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.settings-notes:hover {
+    transition: .3s;
+    transform: scale(1.06);
+}
+
+.settings-notes p {
+    font-size: 1.2rem;
+    margin-top: 0 !important;
+    color: #6069FA;
 }
 
 .txt-area:focus{
