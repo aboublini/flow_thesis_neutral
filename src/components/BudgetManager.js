@@ -56,7 +56,7 @@ const BudgetManager = () => {
 
     // Retrieve expenses when page loads
     useEffect(() => {
-        const savedExpenses = JSON.parse(localStorage.getItem('react-expenses-app-data'));
+        const savedExpenses = JSON.parse(localStorage.getItem('react-expenses-app-data-neutral'));
 
         if (savedExpenses){
             setExpenses(savedExpenses);
@@ -66,7 +66,7 @@ const BudgetManager = () => {
     // Save expenses to local storage
     useEffect(() => {
         localStorage.setItem(
-            'react-expenses-app-data',
+            'react-expenses-app-data-neutral',
             JSON.stringify(expenses))
     }, [expenses]);
 

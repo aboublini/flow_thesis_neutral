@@ -27,7 +27,7 @@ function TodoComponent() {
 
     // Retrieve to do list when page loads
     useEffect(() => {
-        const savedTodos = JSON.parse(localStorage.getItem('react-todo-app-data'));
+        const savedTodos = JSON.parse(localStorage.getItem('react-todo-app-data-neutral'));
 
         if (savedTodos){
             setTodos(savedTodos);
@@ -37,7 +37,7 @@ function TodoComponent() {
     // Save todos to local storage
     useEffect(() => {
         localStorage.setItem(
-            'react-todo-app-data',
+            'react-todo-app-data-neutral',
             JSON.stringify(todos))
     }, [todos]);
 
