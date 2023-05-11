@@ -141,11 +141,12 @@ h1 {
     align-items: center;
     font-size: 20px;
     cursor: pointer;
+    color: #6069FA
 }
 
 .iconsContainer:hover {
     transition: .2s;
-    color: #6069FA;
+    color: rgba(95, 105, 250, .5);
 }
 
 .todo-item {

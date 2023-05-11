@@ -80,6 +80,9 @@
     font-size: 1.1rem;
     font-weight: lighter;
     color: dimgray;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .reset-input {
@@ -131,7 +134,14 @@
     background: rgba(95, 105, 250, .5);
 }
 
-
+.font-input {
+    outline: none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #6069FA;
+    background-color: #f0f0f0;
+}
 
 
 .reset-container-ok {

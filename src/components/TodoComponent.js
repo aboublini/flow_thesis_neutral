@@ -79,7 +79,7 @@ function TodoComponent() {
             title: 'Are you sure that you want to delete this to-do?',
             showCancelButton: true,
             confirmButtonText: 'Yes',
-            cancelButtonText: 'No',
+            cancelButtonText: 'Cancel',
             showLoaderOnConfirm: true}
         ).then((result) => {
             if (result.isConfirmed) {
