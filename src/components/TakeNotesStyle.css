@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap');
 
 .out {
     background: #fff;
@@ -56,17 +57,17 @@
 }
 
 .saved-txt {
-    /*font-family: 'Manrope', serif !important;*/
     font-size: 1rem;
 }
 
 .font-montserrat {
-    font-family: 'Montserrat', serif !important;
+    font-family: 'Montserrat', 'Commissioner', serif !important;
     font-size: 1rem;
+
 }
 
 .font-wix {
-    font-family: "Wix Madefor Display", serif !important;
+    font-family: "Wix Madefor Display", 'Manrope', serif !important;
     font-size: 1rem;
 }
 
