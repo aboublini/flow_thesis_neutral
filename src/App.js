@@ -7,8 +7,6 @@ import Notes from "./routes/Notes";
 import About from "./routes/About";
 import Help from "./routes/Help";
 
-
-
 function App() {
 
     return (

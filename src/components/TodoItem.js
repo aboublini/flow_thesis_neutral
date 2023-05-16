@@ -1,5 +1,4 @@
 import React from 'react'
-import { RiCheckLine } from "react-icons/ri"
 import { RiDeleteBin7Line } from "react-icons/ri"
 
 export default function TodoItem(props) {

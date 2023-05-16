@@ -1,8 +1,5 @@
 import React from 'react';
 import './AboutInfoComponentStyle.css'
-import {Link} from "react-router-dom";
-import unipi from '../visual-material/unipi-logo.png';
-import tools from '../visual-material/tools-image.png';
 import Logo from "../visual-material/logo.png";
 
 const AboutInfoComponent = () => {

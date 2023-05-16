@@ -57,7 +57,6 @@ const Navbar = () => {
 
             <div className="right-navbar">
                 <li className="help-button"><Link to="/help">HELP</Link></li>
-                {/*<button className="logout-button"><li ><Link to="/">LOGOUT</Link></li></button>*/}
                 <Link to="/"><button className="logout-button">LOGOUT</button></Link>
             </div>
 

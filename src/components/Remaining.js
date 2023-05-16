@@ -3,11 +3,6 @@ import Logo from "../visual-material/orange-money.png";
 
 const Remaining = ({ remain }) => {
     return (
-        // <div className="alert alert-success">
-        //     <span>Remaining:</span>
-        //     <span>{remain}€</span>
-        // </div>
-
         <div className="alert">
             <h3>Remaining:</h3>
             <div className="alert-inside">

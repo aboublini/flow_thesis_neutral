@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './FAQStyle.css'
 import {Link} from "react-router-dom";
-import {RiCheckLine, RiDeleteBin7Line} from "react-icons/ri";
+import {RiDeleteBin7Line} from "react-icons/ri";
 import {FaFont} from "react-icons/fa";
 
 function FAQ() {

@@ -1,12 +1,10 @@
 import './LoginComponentStyle.css';
 import './VideoStyle.css'
-import colourVideo from "../visual-material/LoginBackround.mp4";
 import Logo from '../visual-material/logo.png';
 import { useNavigate } from "react-router-dom";
 import {useEffect, useState} from 'react';
 import Swal from "sweetalert2";
 import loginImage from "../visual-material/LoginBackround.jpg";
-// import React from "@types/react";
 
 const LoginComponent = () => {
 
@@ -107,7 +105,7 @@ const LoginComponent = () => {
 
             <div className="content">
                 <form onSubmit={handleLogin} className="login-form">
-                    <img src={Logo} className="login-logo"/>
+                    <img src={Logo} className="login-logo" alt="logo"/>
                     <h1 className="hi">Hi again!</h1>
                     <label>Username</label>
                     <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>

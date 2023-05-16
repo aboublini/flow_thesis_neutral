@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import ProgressBar from "./ProgressBar";
-
 
 export default function TodoForm(props) {
     const [input, setInput] = useState("");
