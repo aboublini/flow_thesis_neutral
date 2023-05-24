@@ -20,7 +20,7 @@ const HelpComponent = () => {
                     </div>
 
                     <div className="help-msg">
-                        <h1>Having trouble with flow?</h1>
+                        <h1>Having trouble with Flow?</h1>
 
                         <p>Don't worry. We've got you covered.</p>
 
