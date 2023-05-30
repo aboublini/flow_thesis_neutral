@@ -16,7 +16,7 @@ const DailyComponent = () => {
                     </div>
 
                     <div className="daily-msg">
-                        <h1>Make the most of everyday with flow.</h1>
+                        <h1>Make the most of everyday with Flow.</h1>
                     </div>
                 </div>
             </div>

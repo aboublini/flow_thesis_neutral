@@ -132,7 +132,7 @@ const TakeNotesComponent = () => {
                 else if (result.value.toString() === "montserrat") {
                     setFontClass("font-montserrat");
                     setFontName("Montserrat");
-                    localStorage.setItem("fontClass-male", "font-montserrat");
+                    localStorage.setItem("fontClass-neutral", "font-montserrat");
                 }
                 else if (result.value.toString() === "wix") {
                     setFontClass("font-wix");

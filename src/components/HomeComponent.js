@@ -17,7 +17,7 @@ const HomeComponent = () => {
                     </div>
 
                     <div className="welcome-msg">
-                        <h1>Focus on being productive instead of busy with flow.</h1>
+                        <h1>Focus on being productive instead of busy with Flow.</h1>
                     </div>
                 </div>
             </div>

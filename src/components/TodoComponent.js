@@ -14,12 +14,30 @@ function TodoComponent() {
         {
             id: nanoid(),
             text: "Buy groceries",
-            completed: false,
+            completed: true,
+            important: false
+        },
+        {
+            id: nanoid(),
+            text: "Econ 210 lecture",
+            completed: true,
             important: false
         },
         {
             id: nanoid(),
             text: "Go to gym",
+            completed: true,
+            important: false
+        },
+        {
+            id: nanoid(),
+            text: "Marketing 302 presentation",
+            completed: false,
+            important: false
+        },
+        {
+            id: nanoid(),
+            text: "Dinner with George",
             completed: false,
             important: false
         },

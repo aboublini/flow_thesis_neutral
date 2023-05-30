@@ -40,17 +40,22 @@ const BudgetManager = () => {
         {
             id: nanoid(),
             name: "Vacation",
-            cost: "300"
+            cost: "450"
         },
         {
             id: nanoid(),
             name: "Super Market",
-            cost: "50"
+            cost: "122"
         },
         {
             id: nanoid(),
-            name: "Fay's present",
-            cost: "50"
+            name: "Rent",
+            cost: "800"
+        },
+        {
+            id: nanoid(),
+            name: "Taxes",
+            cost: "250"
         },
     ]);
 
