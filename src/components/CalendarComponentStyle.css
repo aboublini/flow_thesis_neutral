@@ -11,6 +11,10 @@
     display: none !important;
 }
 
+/*.css-14b29qc {*/
+/*    display: none !important;*/
+/*}*/
+
 /* Hide pencil button next to date title */
 .css-z3au5x-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton {
     display: none !important;

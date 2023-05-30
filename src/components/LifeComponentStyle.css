@@ -153,8 +153,8 @@
 }
 
 .reset-title-ok {
-    font-size: 1.1rem;
-    font-weight: lighter;
+    font-size: 1.1rem !important;
+    font-weight: lighter !important;
 }
 
 .reset-container-ok .reset-ok {
