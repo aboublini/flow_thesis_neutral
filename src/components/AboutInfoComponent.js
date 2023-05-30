@@ -10,7 +10,7 @@ const AboutInfoComponent = () => {
                     <img src={Logo} className="question-logo" alt=""/>
                 </div>
 
-                <h1>What is flow?</h1>
+                <h1>What is Flow?</h1>
                 <p>
                     Flow is an online application developed in React JS as part
                     of my bachelor thesis titled "Gendered UI/UX: A Comparative
